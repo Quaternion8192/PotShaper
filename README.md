@@ -123,7 +123,7 @@ With **90%+ test coverage**, PotShaper is built for production:
 <dependency>
     <groupId>cc.quaternion</groupId>
     <artifactId>potshaper</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 
 ```
