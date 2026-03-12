@@ -1,0 +1,202 @@
+# ====================
+# Compiled Class Files
+# ====================
+*.class
+
+# ====================
+# Log Files
+# ====================
+*.log
+
+# ====================
+# Maven
+# ====================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ====================
+# Eclipse
+# ====================
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Apache POI specific - temporary files
+*.tmp
+*.temp
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configs"
+*.launch
+
+# Class directory created by Eclipse
+.classpath
+
+# OS-specific IDE folders
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+
+# ====================
+# NetBeans
+# ====================
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ====================
+# VS Code
+# ====================
+.vscode/
+
+# ====================
+# IntelliJ IDEA
+# ====================
+# Ignore Maven repository folder
+repository/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# ====================
+# Package Files
+# ====================
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ====================
+# Virtual Machine Crash Logs
+# ====================
+hs_err_pid*
+replay_pid*
+
+# ====================
+# Mac OS
+# ====================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ====================
+# Windows
+# ====================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.csl
+.CompatMode
+
+# ====================
+# Cache Files
+# ====================
+**/.cache/
+**/target/**
+**/bin/**
+**/out/**
+
+# ====================
+# Documentation
+# ====================
+docs/_build/
+docs/.doctrees/
+
+# ====================
+# Jupyter Notebook
+# ====================
+.ipynb_checkpoints
+
+# ====================
+# Python
+# ====================
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ====================
+# Backup Files
+# ====================
+*.backup
+*.bak
+*.old
+*.orig
+draft/
+
+# ====================
+# Sensitive Files
+# ====================
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.jks
+.keystore
+.truststore
+
+# ====================
+# Application Specific
+# ====================
+# Application logs
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.directory
