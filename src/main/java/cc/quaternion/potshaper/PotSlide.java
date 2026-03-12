@@ -47,7 +47,7 @@ import java.util.stream.Collectors;
  *
  * <h3>Usage Example</h3>
  * <pre>{@code
- * PotPresentation pres = new PotPresentation();
+ * PotPresentation pres = PotPresentation.create();
  * PotSlide slide = pres.addSlide();
  * PotTextBox title = slide.addTextBox("Presentation Title");
  * title.setFontSize(36).setBold(true);
