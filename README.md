@@ -166,5 +166,7 @@ Copyright © 2026 Quaternion
 
 *Reshaping PowerPoint Automation, One Fluent API at a Time.*
 
+> PS. We are looking for long-term contributors to shape the future of PPT automation!
+
 </div>
 

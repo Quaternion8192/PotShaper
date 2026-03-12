@@ -26,7 +26,7 @@
  * <h3>Quick Start</h3>
  * <pre>{@code
  * // Example: Creating a simple presentation
- * PotPresentation pres = new PotPresentation();
+ * PotPresentation pres = PotPresentation.create();
  * PotSlide slide = pres.addSlide();
  * slide.addTextBox("Hello PotShaper!", 100, 100, 200, 50);
  * pres.save("output.pptx");
