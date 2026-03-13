@@ -82,7 +82,7 @@ try (PotPresentation ppt = PotPresentation.create(PotPageSize.WIDESCREEN_16_9)) 
     // 2. Add a Gradient Shape with a Click Action
     slide.addShape(PotShapeType.ROUNDED_RECTANGLE)
         .at(100, 150).size(200, 100)
-        .fill(PotFill.gradient(PotColor.BLUE, PotColor.PURPLE))
+        .fill(PotFill.gradient(PotGradient.linear(100).addStop(0.3, PotColor.BLUE).addStop(0.7, PotColor.GREEN)))
         .action(PotAction.goToNextSlide().onClick());
     
     // 3. Setup Slide Transition
@@ -144,15 +144,15 @@ try (PotPresentation ppt = PotPresentation.create()) {
 
 ## 📖 Documentation & Resources
 
-* **[Usage Guide](https://www.google.com/search?q=docs/architecture.md)** - Deep dive into architecture and design.
-* **[Examples](https://www.google.com/search?q=docs/example/)** - From basic shapes to complex motions.
-* **[API Reference (Javadoc)](https://quaternion8192.github.io/potshaper/)** - Full technical documentation.
+* **[Usage Guide](./docs/architecture.md)** - Deep dive into architecture and design.
+* **[Examples](./docs/example/)** - From basic shapes to complex motions.
+* **[API Reference (Javadoc)](https://potshaper.quaternion.cc/)** - Full technical documentation.
 
 ---
 
 ## 📄 License
 
-Licensed under the **Apache License 2.0**. See [LICENSE](https://www.google.com/search?q=LICENSE) for details.
+Licensed under the **Apache License 2.0**. See [LICENSE](./LICENSE) for details.
 
 ```text
 Copyright © 2026 Quaternion
@@ -166,7 +166,8 @@ Copyright © 2026 Quaternion
 
 *Reshaping PowerPoint Automation, One Fluent API at a Time.*
 
+</div>
+
 > PS. We are looking for long-term contributors to shape the future of PPT automation!
 
-</div>
 
